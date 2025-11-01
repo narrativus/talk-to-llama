@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "talk-to-llama"
+version = "0.1.0"
+description = "A project for interactive chatting with a local Llama model"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+ollama = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

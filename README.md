@@ -10,13 +10,15 @@ This project sets up a local Llama model for interactive chatting, offline-capab
 
 3. Pull the model: `ollama pull llama3.2:3b`.
 
-4. Install Python dependencies: `pip install -r requirements.txt`.
+4. Install Poetry: `brew install poetry` (dependency manager).
+
+5. Install Python dependencies: `poetry install`.
 
 ## Usage
 
 - CLI Chat: `ollama run llama3.2:3b` for direct terminal interaction.
 
-- Python Script: `python chat.py` for a simple interactive loop.
+- Python Script: `poetry run python chat.py` for a simple interactive loop.
 
 Type 'quit' to exit the script.
 
